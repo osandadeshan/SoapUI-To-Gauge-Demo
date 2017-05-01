@@ -1,0 +1,147 @@
+09:33:34.993 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+09:33:34.995 Watching directory: C:\Users\osanda\IdeaProjects\TestProject\specs
+09:33:34.995 Found 1 files
+09:33:34.996 Initializing concepts cache with 0 concepts
+09:33:34.998 Initializing specs cache with 1 specs
+09:33:34.998 Adding specs from C:\Users\osanda\IdeaProjects\TestProject\specs\example.spec
+09:33:34.998 Initializing steps cache with 3 steps
+09:33:35.827 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+09:33:35.828 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.6.1\\libs" > 
+09:33:37.012 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+09:33:37.013 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.6.1\\libs" > 
+09:33:38.693 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+09:33:38.694 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.6.1\\libs" > 
+09:33:54.724 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+09:33:54.725 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+09:33:54.739 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+09:33:54.740 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+09:33:54.740 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+09:33:54.741 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+10:07:02.335 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\example.spec
+10:07:19.599 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:07:19.661 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:07:19.663 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:27.873 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:27.874 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:34.314 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:34.317 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:33.625 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:33.627 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:34.021 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:34.024 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:40.535 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:40.538 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:56.215 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:56.217 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:12:57.000 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:12:57.003 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+ts\TestProject\specs\TestSpec.spec
+10:10:27.875 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:28.694 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+10:10:28.696 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+10:10:34.314 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:10:34.317 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:33.625 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:33.627 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:34.021 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:34.022 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:40.535 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:40.538 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:56.215 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:11:56.217 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:12:13.371 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:12:13.375 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:13.393 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:12:13.393 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:50.293 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:12:50.293 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:54.882 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase>  <TestSuite>" > 
+10:12:54.882 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {}  {}" parameterizedStepValue:"Execute <TestCase>  <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:54.924 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase>  <TestSuite>" > 
+10:12:54.924 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {}  {}" parameterizedStepValue:"Execute <TestCase>  <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:54.941 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase>  <TestSuite>" > 
+10:12:54.941 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {}  {}" parameterizedStepValue:"Execute <TestCase>  <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:12:57.001 Spec file removed: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:12:57.003 Spec file added / modified: C:\Users\osanda\IdeaProjects\TestProject\specs\TestSpec.spec
+10:13:21.600 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:13:21.600 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:13:21.612 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:13:21.612 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:15:29.948 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:15:29.948 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:15:29.960 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:15:29.960 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:16:42.454 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:16:42.456 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:16:42.467 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:16:42.467 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:42:34.725 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+10:42:34.726 Watching directory: C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs
+10:42:34.726 Found 1 files
+10:42:34.728 Initializing concepts cache with 0 concepts
+10:42:34.729 Initializing specs cache with 1 specs
+10:42:34.729 Adding specs from C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs\TestSpec.spec
+10:42:34.729 Initializing steps cache with 1 steps
+10:42:46.017 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:42:46.017 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:42:55.906 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:42:55.907 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:42:55.977 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:42:55.977 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:44:20.935 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:44:20.935 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:44:20.946 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:44:20.946 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:46:36.475 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+10:46:36.475 Watching directory: C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs
+10:46:36.475 Found 1 files
+10:46:36.477 Initializing concepts cache with 0 concepts
+10:46:36.478 Initializing specs cache with 1 specs
+10:46:36.478 Adding specs from C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs\TestSpec.spec
+10:46:36.478 Initializing steps cache with 1 steps
+10:46:38.817 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:46:38.817 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:46:38.821 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:46:38.821 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:46:54.369 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:46:54.369 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:46:54.413 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:46:54.413 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:47:03.380 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+10:47:03.384 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+10:47:03.403 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+10:47:03.404 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:29:12.712 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+19:29:12.721 Watching directory: C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs
+19:29:12.721 Found 1 files
+19:29:12.779 Initializing concepts cache with 0 concepts
+19:29:12.793 Initializing specs cache with 1 specs
+19:29:12.793 Adding specs from C:\Users\osanda\IdeaProjects\API_Test_Demo - V2\specs\TestSpec.spec
+19:29:12.793 Initializing steps cache with 1 steps
+19:29:23.709 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:29:23.710 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:32:24.478 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:32:24.478 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:34:13.465 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:34:13.468 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:34:13.480 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:34:13.480 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:37:36.674 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+19:37:36.676 Watching directory: C:\Users\osanda\IdeaProjects\[MaxSoft API Test Automator] API_Test_Demo - V2\specs
+19:37:36.676 Found 1 files
+19:37:36.678 Initializing concepts cache with 0 concepts
+19:37:36.679 Initializing specs cache with 1 specs
+19:37:36.679 Adding specs from C:\Users\osanda\IdeaProjects\[MaxSoft API Test Automator] API_Test_Demo - V2\specs\TestSpec.spec
+19:37:36.679 Initializing steps cache with 1 steps
+19:37:44.600 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:37:44.600 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:38:19.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:38:19.688 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:38:40.246 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:38:40.249 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:38:40.261 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:38:40.261 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:39:17.677 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+19:39:17.680 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+19:39:17.691 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+19:39:17.692 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 

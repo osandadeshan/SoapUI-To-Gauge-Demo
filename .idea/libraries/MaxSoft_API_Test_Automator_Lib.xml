@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="MaxSoft_API_Test_Automator_Lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ext/MaxSoft_API_Test_Automator_Lib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ext/MaxSoft_API_Test_Automator_Lib.jar!/" />
+    </SOURCES>
+  </library>
+</component>

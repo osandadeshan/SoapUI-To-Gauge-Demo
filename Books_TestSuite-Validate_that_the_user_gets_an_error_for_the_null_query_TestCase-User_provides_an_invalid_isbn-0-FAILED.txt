@@ -1,0 +1,60 @@
+Status: FAILED
+Time Taken: 330
+Size: 234
+Timestamp: Mon May 01 19:39:23 IST 2017
+TestStep: User provides an invalid isbn
+
+----------------- Messages ------------------------------
+[Validate that the response contains null for the query] Missing token [null] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://www.googleapis.com
+Method: GET
+StatusCode: 400
+URL: https://www.googleapis.com/books/v1/volumes?q
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [www.googleapis.com]
+Accept-Encoding: [gzip,deflate]
+
+GET https://www.googleapis.com/books/v1/volumes?q HTTP/1.1
+Accept-Encoding: gzip,deflate
+Host: www.googleapis.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Transfer-Encoding: [chunked]
+Server: [GSE]
+Alt-Svc: [quic=":443"; ma=2592000; v="37,36,35"]
+X-Content-Type-Options: [nosniff]
+Date: [Mon, 01 May 2017 14:09:28 GMT]
+X-Frame-Options: [SAMEORIGIN]
+Cache-Control: [private, max-age=0]
+Content-Encoding: [gzip]
+Vary: [Origin, X-Origin]
+Expires: [Mon, 01 May 2017 14:09:28 GMT]
+#status#: [HTTP/1.1 400 Bad Request]
+X-XSS-Protection: [1; mode=block]
+Content-Type: [application/json; charset=UTF-8]
+
+{
+ "error": {
+  "errors": [
+   {
+    "domain": "global",
+    "reason": "queryRequired",
+    "message": "Missing query.",
+    "locationType": "parameter",
+    "location": "q"
+   }
+  ],
+  "code": 400,
+  "message": "Missing query."
+ }
+}
+

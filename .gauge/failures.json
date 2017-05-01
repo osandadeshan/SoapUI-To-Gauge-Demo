@@ -1,0 +1,8 @@
+{
+	"Flags": {
+		"-simple-console": "true"
+	},
+	"FailedItems": [
+		"specs\\TestSpec.spec:16"
+	]
+}
