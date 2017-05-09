@@ -145,3 +145,37 @@ ts\TestProject\specs\TestSpec.spec
 19:39:17.680 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
 19:39:17.691 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
 19:39:17.692 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:07:27.642 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+12:07:27.643 Watching directory: C:\Users\osanda\IdeaProjects\MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2\specs
+12:07:27.644 Found 1 files
+12:07:27.645 Initializing concepts cache with 0 concepts
+12:07:27.645 Initializing specs cache with 1 specs
+12:07:27.645 Adding specs from C:\Users\osanda\IdeaProjects\MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2\specs\TestSpec.spec
+12:07:27.645 Initializing steps cache with 1 steps
+12:07:53.155 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:07:53.155 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:08:09.552 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:08:09.553 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:11:33.801 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+12:11:33.802 Watching directory: C:\Users\osanda\IdeaProjects\MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2\specs
+12:11:33.802 Found 1 files
+12:11:33.804 Initializing concepts cache with 0 concepts
+12:11:33.804 Initializing specs cache with 1 specs
+12:11:33.804 Adding specs from C:\Users\osanda\IdeaProjects\MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2\specs\TestSpec.spec
+12:11:33.804 Initializing steps cache with 1 steps
+12:11:42.176 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:11:42.177 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:13:04.270 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+12:13:04.270 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:13:27.950 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+12:13:27.954 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:13:27.970 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:13:27.970 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:21:33.923 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+12:21:33.924 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:21:33.936 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:21:33.937 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:25:35.589 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> of <TestSuite>" > 
+12:25:35.589 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} of {}" parameterizedStepValue:"Execute <TestCase> of <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 
+12:25:35.603 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Execute <TestCase> <TestSuite>" > 
+12:25:35.604 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Execute {} {}" parameterizedStepValue:"Execute <TestCase> <TestSuite>" parameters:"TestCase" parameters:"TestSuite" > > 

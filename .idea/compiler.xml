@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="API_Test_Demo" />
+        <module name="MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="API_Test_Demo" target="1.5" />
+      <module name="MaxSoft-REST-API-Test-Automator-API_Test_Demo_V2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

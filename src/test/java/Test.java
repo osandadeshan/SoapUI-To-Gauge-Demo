@@ -1,4 +1,4 @@
-import com.maxsoft.apitestautomator.ExecuteSoapUIAnyTestCase;
+import com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase;
 import com.thoughtworks.gauge.Step;
 
 /**
