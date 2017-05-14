@@ -621,3 +621,367 @@ java.lang.Thread.run(Thread.java:745)
 12:25:43.901 
 Total time taken: 7.5s
 12:25:43.901 Updates are available. Run gauge --check-updates for more info.
+21:54:29.905 Got a kill message. Killing runner.
+21:54:33.921 Killing runner with PID:3108 forcefully
+21:56:32.549 Checking updates...
+21:56:44.275 # Specification Heading
+21:56:44.279 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+21:56:44.279 ## Scenario Heading
+21:56:44.282 * Execute <TestCase> <TestSuite>
+21:57:00.583 
+Failed Step: Execute <TestCase> <TestSuite>
+21:57:00.583 Specification: specs\TestSpec.spec:18
+21:57:00.583 Error Message: java.lang.NoClassDefFoundError: com/jgoodies/forms/layout/CellConstraints
+21:57:00.583 Stacktrace: 
+com.eviware.soapui.impl.wsdl.teststeps.assertions.basic.SimpleContainsAssertion.<clinit>(SimpleContainsAssertion.java:75)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.AbstractTestAssertionFactory.buildAssertion(AbstractTestAssertionFactory.java:106)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.TestAssertionRegistry.buildAssertion(TestAssertionRegistry.java:127)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.addWsdlAssertion(AssertionsSupport.java:62)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.<init>(AssertionsSupport.java:56)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.initAssertions(RestTestRequest.java:96)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.<init>(RestTestRequest.java:69)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.buildTestRequest(RestTestRequestStep.java:277)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.<init>(RestTestRequestStep.java:110)
+com.eviware.soapui.impl.wsdl.teststeps.registry.RestRequestStepFactory.buildTestStep(RestRequestStepFactory.java:66)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:295)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.<init>(WsdlTestCase.java:120)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.<init>(WsdlTestSuite.java:89)
+com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:438)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:379)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:301)
+com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:220)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
+com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:29)
+Test.testm(Test.java:14)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:57:00.587 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+21:57:00.587 ## Scenario Heading
+21:57:00.589 * Execute <TestCase> <TestSuite>
+21:57:01.007 
+Failed Step: Execute <TestCase> <TestSuite>
+21:57:01.007 Specification: specs\TestSpec.spec:18
+21:57:01.007 Error Message: java.lang.NoClassDefFoundError: Could not initialize class com.eviware.soapui.impl.wsdl.teststeps.assertions.basic.SimpleContainsAssertion
+21:57:01.007 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.AbstractTestAssertionFactory.buildAssertion(AbstractTestAssertionFactory.java:106)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.TestAssertionRegistry.buildAssertion(TestAssertionRegistry.java:127)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.addWsdlAssertion(AssertionsSupport.java:62)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.<init>(AssertionsSupport.java:56)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.initAssertions(RestTestRequest.java:96)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.<init>(RestTestRequest.java:69)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.buildTestRequest(RestTestRequestStep.java:277)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.<init>(RestTestRequestStep.java:110)
+com.eviware.soapui.impl.wsdl.teststeps.registry.RestRequestStepFactory.buildTestStep(RestRequestStepFactory.java:66)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:295)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.<init>(WsdlTestCase.java:120)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.<init>(WsdlTestSuite.java:89)
+com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:438)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:379)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:301)
+com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:220)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
+com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:29)
+Test.testm(Test.java:14)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:57:01.012 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+21:57:01.012 ## Scenario Heading
+21:57:01.013 * Execute <TestCase> <TestSuite>
+21:57:01.266 
+Failed Step: Execute <TestCase> <TestSuite>
+21:57:01.266 Specification: specs\TestSpec.spec:18
+21:57:01.266 Error Message: java.lang.NoClassDefFoundError: Could not initialize class com.eviware.soapui.impl.wsdl.teststeps.assertions.basic.SimpleContainsAssertion
+21:57:01.266 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.AbstractTestAssertionFactory.buildAssertion(AbstractTestAssertionFactory.java:106)
+com.eviware.soapui.impl.wsdl.teststeps.assertions.TestAssertionRegistry.buildAssertion(TestAssertionRegistry.java:127)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.addWsdlAssertion(AssertionsSupport.java:62)
+com.eviware.soapui.impl.wsdl.support.assertions.AssertionsSupport.<init>(AssertionsSupport.java:56)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.initAssertions(RestTestRequest.java:96)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequest.<init>(RestTestRequest.java:69)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.buildTestRequest(RestTestRequestStep.java:277)
+com.eviware.soapui.impl.wsdl.teststeps.RestTestRequestStep.<init>(RestTestRequestStep.java:110)
+com.eviware.soapui.impl.wsdl.teststeps.registry.RestRequestStepFactory.buildTestStep(RestRequestStepFactory.java:66)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:295)
+com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.<init>(WsdlTestCase.java:120)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+com.eviware.soapui.impl.wsdl.WsdlTestSuite.<init>(WsdlTestSuite.java:89)
+com.eviware.soapui.impl.wsdl.WsdlProject.buildTestSuite(WsdlProject.java:438)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProjectFromInputStream(WsdlProject.java:379)
+com.eviware.soapui.impl.wsdl.WsdlProject.loadProject(WsdlProject.java:301)
+com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:220)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:341)
+com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:204)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:29)
+Test.testm(Test.java:14)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:57:02.788 Plugin [Html Report] with pid [11156] has exited
+21:57:03.089 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:57:03.089 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:57:03.089 
+Total time taken: 17.069s
+21:57:03.089 Updates are available. Run gauge --check-updates for more info.
+14:37:15.714 Got a kill message. Killing runner.
+14:37:19.866 Killing runner with PID:9584 forcefully
+14:38:14.361 Checking updates...
+14:38:14.364 Failed to download csharp-install.json file: Get https://downloads.getgauge.io/plugin/csharp?l=java&p=csharp,html-report,java,ruby,xml-report&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: getaddrinfow: No such host is known.
+14:38:14.368 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=csharp,html-report,java,ruby,xml-report&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: getaddrinfow: No such host is known.
+14:38:14.374 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=csharp,html-report,java,ruby,xml-report&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: getaddrinfow: No such host is known.
+14:38:14.386 Failed to download ruby-install.json file: Get https://downloads.getgauge.io/plugin/ruby?l=java&p=csharp,html-report,java,ruby,xml-report&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: getaddrinfow: No such host is known.
+14:38:14.428 Failed to download xml-report-install.json file: Get https://downloads.getgauge.io/plugin/xml-report?l=java&p=csharp,html-report,java,ruby,xml-report&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: getaddrinfow: No such host is known.
+14:38:26.749 # Specification Heading
+14:38:26.759 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+14:38:26.759 ## Scenario Heading
+14:38:26.762 * Execute <TestCase> <TestSuite>
+14:38:35.960 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+14:38:35.961 ## Scenario Heading
+14:38:35.962 * Execute <TestCase> <TestSuite>
+14:38:36.078 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+14:38:36.078 ## Scenario Heading
+14:38:36.080 * Execute <TestCase> <TestSuite>
+14:38:37.117 Plugin [Html Report] with pid [8288] has exited
+14:38:37.670 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:38:37.670 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:38:37.698 
+Total time taken: 9.821s
+14:38:46.403 Checking updates...
+14:38:57.922 # Specification Heading
+14:38:57.927 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+14:38:57.927 ## Scenario Heading
+14:38:57.930 * Execute <TestCase> <TestSuite>
+14:39:05.235 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+14:39:05.235 ## Scenario Heading
+14:39:05.235 * Execute <TestCase> <TestSuite>
+14:39:06.447 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+14:39:06.448 ## Scenario Heading
+14:39:06.452 * Execute <TestCase> <TestSuite>
+14:39:07.192 Plugin [Html Report] with pid [10772] has exited
+14:39:07.492 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:39:07.492 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:39:07.492 
+Total time taken: 9.236s
+14:39:07.492 Updates are available. Run gauge --check-updates for more info.
+14:40:16.468 Checking updates...
+14:40:28.258 # Specification Heading
+14:40:28.262 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+14:40:28.263 ## Scenario Heading
+14:40:28.266 * Execute <TestCase> <TestSuite>
+14:40:35.730 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+14:40:35.730 ## Scenario Heading
+14:40:35.731 * Execute <TestCase> <TestSuite>
+14:40:36.828 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+14:40:36.828 ## Scenario Heading
+14:40:36.831 * Execute <TestCase> <TestSuite>
+14:40:37.571 Plugin [Html Report] with pid [6520] has exited
+14:40:37.871 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:40:37.871 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:40:37.871 
+Total time taken: 9.265s
+14:40:37.871 Updates are available. Run gauge --check-updates for more info.
+14:59:05.094 Checking updates...
+14:59:16.035 # Specification Heading
+14:59:16.041 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+14:59:16.042 ## Scenario Heading
+14:59:16.047 * Execute <TestCase> <TestSuite>
+14:59:23.565 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+14:59:23.565 ## Scenario Heading
+14:59:23.567 * Execute <TestCase> <TestSuite>
+14:59:24.472 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+14:59:24.472 ## Scenario Heading
+14:59:24.473 * Execute <TestCase> <TestSuite>
+14:59:25.734 
+Failed Step: Execute <TestCase> <TestSuite>
+14:59:25.734 Specification: specs\TestSpec.spec:18
+14:59:25.734 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+14:59:25.734 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:39)
+Test.testm(Test.java:14)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:59:25.841 Plugin [Html Report] with pid [1948] has exited
+14:59:26.155 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:59:26.155 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:59:26.155 
+Total time taken: 9.893s
+14:59:26.155 Updates are available. Run gauge --check-updates for more info.
+15:02:05.091 Checking updates...
+15:02:15.733 # Specification Heading
+15:02:15.736 
+     |TestCase                                              |TestSuite      |
+     |------------------------------------------------------|---------------|
+     |Validate that the user picks the correct book TestCase|Books TestSuite|
+15:02:15.736 ## Scenario Heading
+15:02:15.740 * Execute <TestCase> <TestSuite>
+15:02:23.196 
+     |TestCase                                                             |TestSuite      |
+     |---------------------------------------------------------------------|---------------|
+     |Validate that the user doesn't get any book for invalid isbn TestCase|Books TestSuite|
+15:02:23.196 ## Scenario Heading
+15:02:23.197 * Execute <TestCase> <TestSuite>
+15:02:23.991 
+     |TestCase                                                        |TestSuite      |
+     |----------------------------------------------------------------|---------------|
+     |Validate that the user gets an error for the null query TestCase|Books TestSuite|
+15:02:23.992 ## Scenario Heading
+15:02:23.994 * Execute <TestCase> <TestSuite>
+15:02:25.018 
+Failed Step: Execute <TestCase> <TestSuite>
+15:02:25.018 Specification: specs\TestSpec.spec:18
+15:02:25.018 Error Message: java.lang.AssertionError: TestCase execution result is 'FAIL'
+15:02:25.018 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+com.maxsoft.restapitestautomator.ExecuteSoapUIAnyTestCase.executeSpecificTestCase(ExecuteSoapUIAnyTestCase.java:39)
+Test.testm(Test.java:14)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+15:02:25.159 Plugin [Html Report] with pid [7484] has exited
+15:02:25.467 Specifications:	1 executed	0 passed	1 failed	0 skipped
+15:02:25.467 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+15:02:25.467 
+Total time taken: 9.34s
+15:02:25.467 Updates are available. Run gauge --check-updates for more info.
